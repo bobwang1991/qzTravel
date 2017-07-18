@@ -1,0 +1,190 @@
+.test-border{
+    border: 1px solid red;
+}
+.header-height{
+    height: 80px;
+    line-height: 80px;
+}
+.pc-header{
+    height: 80px;
+    line-height: 80px;
+    background: #2F2F2F;
+    width: 100%;
+    max-width: 1920px;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+.pc-header .header-cont{
+    width: 1030px;
+    margin: 0 auto;
+    height: 80px;
+}
+.pc-header .h1 ul.header-nav{
+    width: 930px;
+}
+.pc-header .h1 .login{
+    width: 100px;
+}
+.pc-header .h1 ul.header-nav li:last-child{
+    margin-left: 19px;
+    height: 80px;
+}
+.pc-header .h1 ul.header-nav li a,.pc-header .h1 ul.header-nav li.become-guide{
+    color: #ACACAC;
+    font-size: 16px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.pc-header .h1 ul.header-nav li a:hover,.pc-header .h1 ul.header-nav li.become-guide:hover{
+    color: #f1f1f1;
+}
+.pc-header .h1 ul.header-nav li.become-guide{
+    line-height: 82px;
+}
+.pc-header .h1 ul.header-nav li span.become{
+    display:block;
+    position: absolute;
+    top: 60px;
+    width: 141px;
+    margin-left: -16px;
+}
+.pc-header .h1 ul.header-nav li:first-child{
+    margin-right: 110px;
+}
+.pc-header .h1 ul.header-nav li:first-child img{
+    width: 160px;
+    vertical-align: middle;
+}
+.pc-header .h1 .login .search{
+    width: 240px;
+    margin-right: 44px;
+}
+.pc-header .h1 .login .search .search-tip{
+    height: 42px;
+    line-height: 42px;
+    background: #444444;
+    color: #CCCCCC;
+    padding-left: 10px;
+    margin-top: 19px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+}
+.pc-header .h1 .login .search form{
+    position: relative;
+}
+.pc-header .h1 .login .search span.search-icon{
+    position: absolute;
+    top: -20px;
+    right:10px;
+    cursor: pointer;
+}
+.pc-header .h1 .login .tel{
+    width: 140px;
+    color: #E3E3E3;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.pc-header .h1 .login .login-tip{
+    width: 80px;
+    font-size: 16px;
+    text-align: center;
+    border-left: 1px solid #555;
+    margin-left: 16px;
+}
+.pc-header .h1 .login .login-tip a{
+    color: #E3E3E3;
+}
+/*swiper*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.pc-seek{
+    width: 642px;
+    margin:0 auto;
+    position: relative;
+}
+.pc-seek input.seek{
+    border: 1px solid #ccc;
+    height: 49px;
+    line-height: 49px;
+    padding-left: 16px;
+    width: 100%;
+    font-size: 18px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+}
+.pc-seek p{
+    position: relative;
+}
+.pc-seek form span.seek-icon{
+    height: 49px;
+    line-height:49px;
+    width: 60px;
+    background: #00B8EE;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+}
+.pc-seek form span.seek-icon img{
+    vertical-align: middle;
+}
+.pc-seek .search-detail{
+    width:458px;
+    margin: 0 auto;
+}
+.pc-seek .search-detail h1{
+    margin: 16px 0 0 22px;
+    color: #333;
+}
+.pc-seek .search-detail ul{
+    width: 458px;
+    line-height: 40px;
+}
+.pc-seek .search-detail ul li{
+    width: 75px;
+    text-align: center;
+}
+.pc-seek .search-detail ul li a{
+    color: #999;
+    font-size: 12px;
+}
+.pc-seek .search-detail ul.travel-list{
+    border-bottom: 1px solid #ccc;
+}
+.pc-seek .search-detail ul.travel-list li{
+    width: 50px;
+    text-align: center;
+}
+.pc-seek .search-detail ul:last-child{
+    margin-bottom: 50px;
+}

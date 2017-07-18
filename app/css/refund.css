@@ -1,0 +1,58 @@
+@import "use.css";
+#main .content .helper-content .right-mainContent{
+    padding-bottom: 100px;
+}
+#main .content .helper-content .right-mainContent .reserve-title{
+    margin-bottom: 55px;
+}
+#main .content .helper-content .right-mainContent .refund-txt{
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+    line-height: 40px;
+    margin-bottom: 75px;
+}
+#main .content .helper-content .right-mainContent .refund-txt span{
+    display: block;
+}
+#main .content .helper-content .right-mainContent .refund-txt span:nth-child(2) {
+    width: 406px;
+    margin: 5px auto;
+    background: #eeeeee;
+    border-radius: 15px;
+}
+#main .content .helper-content .right-mainContent .refund-txt span:nth-child(3) {
+    color: #333333;
+}
+#main .content .helper-content .right-mainContent .table{
+    width: 540px;
+    margin: 0 auto;
+}
+#main .content .helper-content .right-mainContent .refund-txt table {
+    border: 3px solid #00b7ee;
+}
+#main .content .helper-content .right-mainContent .refund-txt tr:last-child td{
+    border-bottom: none;
+}
+#main .content .helper-content .right-mainContent .refund-txt td{
+    border-bottom:3px solid #00b7ee;
+    border-right:3px solid #00b7ee;
+}
+#main .content .helper-content .right-mainContent .refund-txt td:first-child {
+    width: 160px;
+    height: 145px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 25px;
+}
+#main .content .helper-content .right-mainContent .refund-txt td:last-child {
+    width: 370px;
+    height: 145px;
+    border-right: none;
+    font-size: 17px;
+    color: #333333;
+    line-height: 30px;
+    padding: 0 25px 0 33px;
+    text-align: left;
+}

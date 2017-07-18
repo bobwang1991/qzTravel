@@ -1,0 +1,131 @@
+body, html {
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+
+body, .onepage-wrapper, html {
+  display: block;
+  position: static;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.onepage-wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  padding: 0;
+  -webkit-transform-style: preserve-3d;
+}
+
+.onepage-wrapper .section {
+  width: 100%;
+  height: 100%;
+}
+
+.onepage-pagination {
+  position: absolute;
+  left:20px;
+  top: 35%;
+  z-index: 5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.onepage-pagination li {
+  padding: 0;
+  text-align: center;
+    background: #21ADE5;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.onepage-pagination li a{
+  padding: 6px;
+  width: 4px;
+  height: 4px;
+  display: block;
+  
+}
+.onepage-pagination li a:before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.onepage-pagination li a.active:before{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+     border: 2px solid #fff;
+    margin-top: -7px;
+    left: -1px;
+}
+
+.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
+  overflow: auto;
+}
+
+.disabled-onepage-scroll .onepage-wrapper .section {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+}
+.disabled-onepage-scroll .onepage-wrapper {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  transform: none !important;
+  -ms-transform: none !important;
+  min-height: 100%;
+}
+
+
+.disabled-onepage-scroll .onepage-pagination {
+  display: none;
+}
+
+body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
+  position: inherit;
+}
+.main .page dl.place-detail{
+    position:relative;
+}
+.main .page dl.place-detail dt img{
+    max-width: 1920px;
+}
+.main .page dl.place-detail dd{
+    position: absolute;
+    top:35%;
+    width: 100%;
+}
+.main .page dl.place-detail dd span{
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+}
+.main .page dl.place-detail dd span.place-name{
+    font-size: 40px;
+    border: 1px solid #B2A9A0;
+    width: 170px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+}
+.main .page dl.place-detail dd span.place-tip{
+    font-size: 18px;
+    width: 787px;
+    background: rgba(0,0,0,0.4);
+    margin-top: 35px;
+    padding: 25px 40px;
+    text-align: center;
+}

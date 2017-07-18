@@ -1,0 +1,503 @@
+.car-banner dl{
+    position: relative;
+}
+.car-banner dl dd{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+.car-banner dl dd span{
+    display: block;
+}
+.car-banner dl dd.chartered-car{
+    top: 55%;
+    text-align: left;
+    padding-left:8%;
+    color: #fff;
+}
+.car-banner dl dd span.car-title{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}.car-banner dl dd span.car-title-reset{
+    font-size: 2rem;
+ }
+.car-banner dl dd span.car-tip-reset{
+    font-size: 1.3rem;
+}
+.car-banner dl dd span.car-tip{
+    color: #F0EFED;
+    font-size: 1.1rem;
+    padding-top: .5rem;
+}
+.tab-title {
+    width: 100%;
+    background-color: #fff;
+    font-size: 1.3rem;
+    height:45px;
+    line-height:45px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cccccc;
+    z-index:10000;
+    max-width: 1024px;
+}
+.tab-title li span.current {
+    color: #00B7ED;
+    border-bottom: 2px #00B7ED solid;
+    font-weight: bold;
+    height: 44px;
+    line-height: 44px;
+    display: inline-block;
+}
+.tab-title li {
+    height: 44px;
+    line-height: 44px;
+    width: 33.3333%;
+    color: #676767;
+}
+.margin-none{
+    margin: 0!important;
+}
+.swiper-pagination {
+    position: absolute;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.swiper-container p.price{
+    position: absolute;
+    background: rgba(10,10,10,0.6);
+    color: #FDFCFC;
+    left: 0;
+    bottom: 3rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    width: 10rem;
+    padding-left:5%;
+    z-index: 1000;
+}
+.swiper-container p.price span{
+    color: #fff;
+    font-size: 1.6rem;
+}
+.swiper-container p.price span.price-tip{
+    font-size: 1rem;
+}
+.swiper-container p.price span.fr{
+    display: inline-block;
+    width: 17%;
+    margin-right: 24%;
+}
+.con-detail{
+    position: relative;
+    padding-bottom: .1rem;
+}
+.con-detail dl.car-place{
+    position: absolute;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    background: #00B7EE;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    right: 6%;
+    bottom: 4.7rem;
+    z-index: 1000;
+    width: 5.5rem;
+}
+.con-detail dl.car-place dt{
+    width: 34%;
+    margin: 1rem auto 0;
+    line-height: 0;
+}
+.con-detail dl.car-place dd{
+    height: 2rem;
+    line-height: 1.8rem;
+    color: #fff;
+}
+.con-detail dl.car-introduce{
+    margin: .5rem 0 1rem .8rem;
+    position: relative;
+}
+.con-detail dl.car-introduce dt span.new{
+    display: inline-block;
+    color: #fff;
+    background: #00B7EE;
+    height: 1.5rem;
+    line-height: 1.6rem;
+    width: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+.con-detail dl.car-introduce dt span.car-style{
+    font-size: 1.3rem;
+    padding-top: .5rem;
+    display: block;
+    color: #333;
+}
+.con-detail dl.car-introduce dt span.car-style em{
+    font-style: normal;
+}
+.con-detail dl.car-introduce dd{
+    color: #AFAFAF;
+    font-size: 1.1rem;
+    padding-top: .5rem;
+}
+.con-detail dl.car-introduce dd label{
+    position: absolute;
+    right: 4%;
+}
+.con-detail dl.car-introduce dd span.tip-icon img{
+    width: 15px;
+}
+.con-detail dl.car-introduce dd span.icon-click img{
+    width: 12px;
+}
+.con-detail dl.car-introduce dd span.tip-icon b{
+    font-weight: normal;
+    vertical-align: middle;
+}
+.con-tip{
+    margin-bottom: 3rem;
+}
+.pc-content{
+    width: 100%;
+    background: #eee;
+}
+.pc-content .tab-change{
+    background: #FAFAFA;
+    width: 100%;
+}
+.pc-content .car-sharing,.pc-content .pc-car-list{
+    width: 1200px;
+    margin: 0 auto;
+}
+.pc-content .relevance-product{
+    background: #FAFAFA;
+}
+.pc-content .product-list dl{
+    width:230px;
+    padding:0;
+}
+.pc-content .product-list dl dd{
+    font-size: 16px!important;
+}
+.pc-content .kind-select-detail{
+    padding: 20px 0 30px 0;
+}
+.pc-content .kind-select-detail p a{
+    color: #666;
+    font-size: 18px;
+    cursor: pointer;
+}
+.pc-content .kind-select h1{
+    font-size: 20px;
+    color: #404040;
+    width: 165px;
+    height: 40px;
+    line-height: 40px;
+}
+.pc-content .kind-select .seek-none{
+    padding-top: 35px!important;
+}
+.pc-content .kind-select ul{
+    width: 850px;
+}
+.pc-content .kind-select ul li{
+    color: #666;
+    font-size: 14px;
+    width: 72px;
+    text-align: center;
+    margin-right: 34px;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+}
+.pc-content .kind-select ul li:hover{
+    color: #00B7EE;
+}
+.pc-content .kind-select ul li.current{
+    background: #00B7EE;
+    color: #fff;
+    border-radius: 5px;
+}
+.pc-content .pc-car-list dl dd.list1{
+    color: #666;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.pc-content .pc-car-list dl{
+    width: 30%;
+    margin-right: 33px;
+    margin-bottom: 40px;
+}
+.pc-content .pc-car-list dl:last-child{
+    margin-right: 0;
+}
+.pc-content .pc-car-list dl dd.list2{
+    color: #999;
+    font-size: 14px;
+}
+.pc-content .pc-car-list dl dd.list3{
+    color: #b5b5b5;
+    font-size: 14px;
+}
+.pc-content .pc-pen-code dl dd.list3 span{
+    color: #666;
+    background: #e8e8e8;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 6px;
+    border-radius: 4px;
+    margin:10px 7px 0 0;
+}
+.pc-content .pc-car-list dl dd{
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+}
+.pc-content .pc-car-list dl{
+    position: relative;
+}
+.pc-content .pc-car-list dl dd.price{
+    position: absolute;
+    background: rgba(10,10,10,0.6);
+    color: #FDFCFC;
+    left: -8px;
+    bottom:150px;
+    height: 40px;
+    line-height: 40px;
+    width: 140px;
+    padding-left: 5%;
+    z-index: 1000;
+    font-size: 14px;
+}
+.pc-content .pc-car-list dl dd.price span{
+    font-size: 20px;
+}
+.pc-content .pc-car-list dl dd.mark{
+    position: absolute;
+    height:70px;
+    background: #00B7EE;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    right:-16px;
+    bottom: 65px;
+    z-index: 1000;
+    width: 70px;
+    line-height: 20px;
+}
+.pc-content .pc-car-list dl dd.mark span.icon{
+    text-align: center;
+    display: inline-block;
+    width: 62px;
+    padding-top: 10px;
+}
+.pc-content .pc-car-list dl dd.mark span.place{
+    color: #fff;
+    width: 62px;
+    text-align: center;
+    display: inline-block;
+}
+.pc-content .kind-select{
+    background: #fff;
+    margin-bottom: 30px;
+}
+.pc-travel .kind-select{
+    margin-top: 25px;
+}
+.pc-content .common-seek .travel-common{
+    padding-top: 120px;
+}
+.pc-travel .pc-car-list dl{
+    background: #fff;
+    width: 382px;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+.pc-travel .pc-coach-travel dl dt,.car-travel dl dt{
+    width: 381px;
+    height:271px;
+    overflow: hidden;
+}
+.pc-travel .pc-coach-travel dl dt img:hover,.car-travel dl dt img:hover{
+    transform: scale(1.2, 1.2);
+    transition: .3s transform;
+}
+.pc-travel .pc-car-list dl dd.travel-price{
+    color: #11BBEE;
+    font-size: 22px;
+    margin: 5px 0 15px 0;
+}
+.pc-travel .pc-car-list dl dd.travel-price a{
+    position: absolute;
+    right:10px;
+    background: #11BBEE;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 3px 10px;
+}
+.pc-travel .pc-car-list dl dd.travel-price span.travel-price-tip{
+    color: #11BBEE;
+    font-size: 22px;
+    position: absolute;
+    right: 8px;
+    bottom: 25px;
+}
+.pc-car-list dl dd.list3 span.people-buy{
+    position: absolute;
+    color: #aaa;
+    right: 8px;
+}
+.pc-travel .pc-car-list dl dd.list3{
+    height: 40px;
+}
+.pc-travel .pc-car-list dl dd.list2{
+    border-top: 1px solid #CFCFCF;
+    margin-right: 8px;
+}
+.pc-route .pc-car-list dl dd.list2{
+    margin: 6px 8px;
+    height:60px;
+}
+.pc-route .route-list dl dd.list2{
+    margin-top: -6px;
+}
+.pc-route .route-list dl dd.list2 span{
+    margin-top: 8px;
+}
+.pc-route .route-list dl dd.travel-price{
+    height: 40px;
+}
+.route-animation dl dd.list2{
+    height: 66px!important;
+    overflow: hidden;
+}
+.pc-route .pc-car-list dl dd.list2 span{
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    height:25px;
+    line-height: 25px;
+    color: #a6a6a6;
+    background: #f8f8f8;
+    font-size: 14px;
+}
+.pc-seek p.text-center{
+    color: #333;
+    font-size: 40px;
+}
+.pc-seek p.text-center span{
+    color: #414141;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 30px;
+}
+.pc-pension{
+    width: 1024px;
+    margin: 0 auto;
+}
+.pc-pension dl.pc-pension-list{
+    position: relative;
+    width: 500px;
+    margin: 5px 9px 0 3px;
+}
+.pc-pension dl.pc-pension-list dd{
+    position: absolute;
+    color: #fff;
+    bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+.paging{
+    width: 510px;
+    margin: 0 auto;
+}
+.paging ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 13px;
+    width: 100%;
+}
+.paging ul.pagination li {display: inline;}
+.paging ul.pagination li a {
+    color: #666;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.paging ul.pagination li.omit a{
+    border: 0 none;
+    padding: 8px;
+}
+.paging ul.pagination li.omit a:hover{
+    background:none!important;
+}
+.paging ul.pagination li a.active {
+    background-color: #00B7EE;
+    color: white;
+    border: 1px solid #D5D5D5;
+}
+.paging ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+.pc-travel .paging{
+    margin-top: 30px;
+}
+.route-animation{
+    position: relative;
+    margin:0 6px 50px 0;
+    height: 393px;
+    width: 382px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #D1D2D3;
+}
+.pc-content .pc-car-list .route-animation dl{
+    position: absolute;
+    bottom: -120px;
+    transition:.5s;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.pc-content .pc-car-list .route-animation dl:hover{
+    bottom: -45px;
+}
+.pc-content .pc-car-list .route-animation dl dt{
+    position: relative;
+}
+.pc-content .pc-car-list .route-animation dl dt span.people-buy{
+    position: absolute;
+    color: #fff;
+    text-shadow: 1px 2px 2px #333;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+}
+.seek-none{
+    background: #fff;
+    padding-top: 120px;
+}
+.seek-none p.no_seek{
+    font-size: 32px;
+    padding-bottom: 60px;
+}
+.travel-reset{
+    margin-top: 100px!important;
+}

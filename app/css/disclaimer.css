@@ -1,0 +1,43 @@
+@import "helper.css";
+#main .content .helper-content .right-mainContent .company-title {
+    width: 332px;
+    line-height: 59px;
+    font-size: 24px;
+    text-align: center;
+    text-indent: 0;
+    border-radius: 10px;
+    margin: 0 auto 65px;
+    background: #00b7ee;
+    color:white;
+}
+#main .content .helper-content .right-mainContent .company-txt{
+    text-indent: 2em;
+}
+#main .content .helper-content .right-mainContent .secTitle{
+    width: 750px;
+    background: #eeeeee;
+    line-height: 56px;
+    text-align: center;
+    text-indent: 1em;
+    color: #666666;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+#main .content .helper-content .right-mainContent .secTxt {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+#main .content .helper-content .right-mainContent .sec{
+    margin-bottom: 35px;
+}
+#main .content .helper-content .right-mainContent .thr{
+    margin-bottom: 27px;
+}
+#main .content .helper-content .right-mainContent .secTxt td{
+    vertical-align: text-top;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+}

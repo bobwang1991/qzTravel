@@ -1,0 +1,96 @@
+#main div.content-area {
+    background: #f5f5f5;
+    padding-bottom: 100px;
+    margin-top: 80px;
+}
+.content {
+    background: white;
+}
+/*顶部图片 start*/
+#main .content .helper-head{
+    width: 100%;
+    margin-bottom: 60px;
+}
+/*顶部图片 end*/
+/*主体内容 start*/
+/*左侧导航*/
+#main .content .helper-content .left-nav {
+    width: 213px;
+    height: 500px;
+}
+#main .content .helper-content .left-nav a{
+    display: block;
+    padding: 0 65px 0 0;
+    border-left: 7px solid transparent;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    text-indent: 0.5em;
+    line-height: 25px;
+    color: #666666;
+    font-size: 20px;
+}
+#main .content .helper-content .left-nav a.on {
+    color: #00b7ee;
+    border-left: 7px solid #00b7ee;
+}
+/*右侧内容*/
+#main .content .helper-content .right-mainContent {
+    width: 750px;
+    margin-right: 53px;
+}
+#main .content .helper-content .right-mainContent .company-title {
+    width: 750px;
+    background: #00b7ee;
+    line-height: 45px;
+    text-indent: 1em;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#main .content .helper-content .right-mainContent .company-txt {
+    width: 750px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #666666;
+    margin-bottom: 72px;
+}
+#main .content .helper-content .right-mainContent .advantage-title{
+    margin-bottom: 30px;
+}
+#main .content .helper-content .right-mainContent .advantage-txt{
+    margin-bottom: 60px;
+}
+#main .content .helper-content .right-mainContent .advantage-txt h1 {
+    font-size: 30px;
+    color: #333333;
+    line-height: 60px;
+}
+#main .content .helper-content .right-mainContent .advantage-txt p {
+    font-size: 16px;
+    color: #666666;
+}
+/*主体内容 end*/
+/*联系我们 start*/
+#main .content .contact-service {
+    width: 100%;
+    margin-top: 45px;
+    padding-bottom: 85px;
+}
+#main .content .contact-service .contact{
+    width: 50%;
+}
+#main .content .contact-service .contact-title {
+    background: #00b7ee;
+    color:white;
+    font-size: 30px;
+    line-height: 90px;
+    padding: 0 0 0 154px;
+}
+#main .content .contact-service  .contact-txt{
+    padding: 40px 0 47px 154px;
+    background: #04a6d7;
+    color:white;
+    font-size: 16px;
+    line-height: 30px;
+}
+/*联系我们 end*/

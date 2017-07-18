@@ -1,0 +1,29 @@
+@import "helper.css";
+#main .content .helper-content .right-mainContent .title {
+    font-size: 16px;
+    color: #666666;
+    line-height: 35px;
+    margin-top: -7px;
+    margin-bottom: 90px;
+}
+#main .content .helper-content .right-mainContent .privacy-title{
+    width: 332px;
+    line-height: 59px;
+    font-size: 24px;
+    text-align: center;
+    text-indent: 0;
+    border-radius: 10px;
+    margin: 0 auto 40px;
+    background: #00b7ee;
+    color: white;
+}
+#main .content .helper-content .right-mainContent .privacy-txt {
+    font-size: 16px;
+    color: #666666;
+    line-height: 35px;
+    text-indent: 2em;
+    margin-bottom: 70px;
+}
+#main .content .helper-content .right-mainContent .noIndent{
+    text-indent: 0;
+}

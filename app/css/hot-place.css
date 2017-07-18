@@ -1,0 +1,139 @@
+.relevance-product{
+    background: #F5F5F5;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+.relevance-product h1.car-title{
+    padding: 2rem 0 0 3%;
+    color: #333333;
+}
+.product-list{
+    width:960px;
+    margin:0 auto;
+    overflow: hidden;
+    height: 280px;
+}
+.product-list dl{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 1%;
+    margin: 0 10px 1% 0;
+}
+.product-list dl dd{
+    background: #fff;
+    padding: .5rem 0 0 .5rem;
+}
+.product-list dl dd.list-style{
+    color: #000;
+    font-size: 1.1rem;
+    font-family: "微软雅黑";
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    padding-right: .5rem;
+    height: 3.5rem;
+    line-height: 1.5rem;
+}
+.product-list dl dd.det{
+    position: relative;
+    padding-bottom: 1rem;
+}
+.product-list dl dd.det span.tip-icon{
+    width: 25%;
+    display: inline-block;
+    color: #B0B0B0;
+    font-weight: normal;
+    opacity: 0;
+}
+.product-list dl dd.det span.tip-icon img{
+    width: 22%;
+}
+.product-list dl dd.det span.price{
+    color: #00B7EE;
+    position: absolute;
+    right: 2%;
+    bottom: .4rem;
+}
+.product-list dl dd.det span.price em{
+    font-style: normal;
+    font-size: 1.3rem;
+}
+.product-list dl dt img{
+    border-radius: 0;
+}
+.pc-hot-place .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pc-hot-place .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*出游热地通用列表*/
+.pc-travel{
+    background: #eee;
+}
+.pc-hot-place{
+    max-width: 1920px;
+}
+.pc-hot-place dl{
+    position:relative;
+}
+.pc-hot-place dl dt img{
+    max-width: 1920px;
+}
+.pc-hot-place dl dd{
+    position: absolute;
+    top:45%;
+    width: 100%;
+}
+.pc-hot-place dl dd span{
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+}
+.pc-hot-place dl dd span.place-name{
+    font-size: 40px;
+    border: 1px solid #B2A9A0;
+    width: 170px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.2);
+}
+.pc-hot-place dl dd span.place-tip{
+    font-size: 18px;
+    max-width: 787px;
+    background: rgba(0,0,0,0.4);
+    margin-top: 35px;
+    padding: 25px 40px;
+}
+dl.place-detail a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    z-index: 1000;
+    top: 0;
+    left:0;
+}

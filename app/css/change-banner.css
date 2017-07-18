@@ -1,0 +1,17 @@
+.wrap{width: 100%;background: #eee;padding-bottom: 100px;}
+.product-banner-title{font-size: 30px;color:#333333;padding: 28px 0 21px;}
+/*#change-banner{width: 1024px;margin: 0 auto;position: relative}*/
+#change-banner{width: 1200px;margin: 0 auto;position: relative}
+/*#change-banner div.change-pic{width: 924px;margin: 0 auto;}*/
+#change-banner div.change-pic{width: 1129px;margin: 0 auto;}
+#change-banner div.change-pic ul{width: 1000%;}
+/*#change-banner div.change-pic ul li{width: 222px;float: left;background: white;margin-left:10px;;font-family: "微软雅黑", Arial, Helvetica, sans-serif}*/
+#change-banner div.change-pic ul li{width: 274px;float: left;background: white;margin-left:10px;;font-family: "微软雅黑", Arial, Helvetica, sans-serif}
+#change-banner div.change-pic ul li:first-child{margin-left: 0;}
+#change-banner div.change-pic ul li img{width: 100%;}
+#change-banner div.change-pic ul li p.change-banner-txt{margin:10px 0 20px;padding:0 40px 0 5px;font-size:16px;display: -webkit-box;overflow: hidden;text-overflow: ellipsis;-webkit-box-orient: vertical;-webkit-line-clamp: 2;}
+#change-banner div.change-pic ul li p.price{font-size: 17px;color:#21ade5;text-align: right;padding-right: 20px;padding-bottom: 16px;}
+#change-banner div.change-pic ul li p.price span{font-size: 20px;}
+#change-banner div.btn div{cursor: pointer;position: absolute;top:50%;}
+#leftBtn{left:0;}
+#rightBtn{right: 0;}

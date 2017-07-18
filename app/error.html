@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=1" id="viewport" name="viewport"/>
+    <title>轻走旅行—日本包车旅行专家</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/header-pc.css"/>
+</head>
+<body>
+    <div class="error-content">
+        <div class="pc-header">
+            <div class="header-cont">
+                <div class="h1 clear">
+                    <ul class="header-nav clear fl">
+                        <li class="fl"><a href="index.html"><img src="images/new_03.png" alt=""/></a></li>
+                        <li class="fl"><a href="route-made.html">行程定制</a></li>
+                        <li class="fl"><a href="route.html">精品线路</a></li>
+                        <li class="fl"><a href="car-travel.html">包车畅游</a></li>
+                        <li class="fl"><a href="coach-travel.html">接送机</a></li>
+                        <li class="fl"><a href="pension.html">精选民宿</a></li>
+                        <li class="fl become-guide">成为司导<span class="become" style="display: none"><img src="images/become_03.png" alt=""/></span></li>
+                        <li class="fl"><a href="my-order.html">我的订单</a></li>
+                    </ul>
+                    <div class="fl login clear">
+                        <div class="fl login-tip header-height">
+                            <a href="login.html">登录</a>
+                        </div>
+                    </div>
+                </div><!--h1-->
+            </div><!--header-cont /-->
+        </div><!--pc-header-->
+        <div class="error">
+            <p class="error-img"><img  src="images/error_03.png" alt="" width="100%"/></p>
+            <dl class="clear">
+                <dt class="fl">可能原因：</dt>
+                <dd class="fl">
+                    <span><em></em>&nbsp;网络信号弱</span><br />
+                    <span><em></em>&nbsp;找不到请求页面</span><br />
+                    <span><em></em>&nbsp;输入的网址不正确</span>
+                </dd>
+            </dl>
+            <p class="error-end">
+                <a><span><img  src="images/error_07.png" alt="" width="15px"/>&nbsp;</span>刷新</a>
+                <a href="javascript:void(0);"><span><img src="images/error_10.png" alt="" width="15px"/>&nbsp;</span>返回</a>
+            </p>
+        </div><!--error /-->
+        <div class="footer">
+            <div class="foot-nav">
+                <div class="nav-detail clear text-center">
+                    <dl class="fl">
+                        <dt><a>帮助中心</a></dt>
+                        <dd><a href="howUse.html">如何使用</a></dd>
+                        <dd><a href="privacy.html">政策说明</a></dd>
+                        <dd><a href="refund.html">退款说明</a></dd>
+                    </dl>
+                    <dl class="fl">
+                        <dt><a>当地服务</a></dt>
+                        <dd><a href="route-made.html">行程定制</a></dd>
+                        <dd><a href="route.html">精品线路</a></dd>
+                        <dd><a href="coach-travel.html">机场接送</a></dd>
+                    </dl>
+                    <dl class="fl">
+                        <dt><a>关于轻走</a></dt>
+                        <dd><a href="helperKnow.html">了解轻走</a></dd>
+                        <dd><a href="helperKnow.html#contact-us">联系我们</a></dd>
+                    </dl>
+                    <dl class="fl">
+                        <dt><a>服务支持</a></dt>
+                        <dd class="foot-be">成为导游<span class="f-become" style="display: none"><img src="images/become_03.png" alt=""/></span></dd>
+                        <dd><a href="http://www.sobot.com/chat/pc/index.html?sysNum=08901e5edb314ca084630abb85947fbf" target="_blank">在线客服</a></dd>
+                    </dl>
+                </div>
+            </div><!--foot-nav-->
+            <div class="foot-end clear">
+                <div class="foot-bg clear">
+                    <div class="fl">
+                        <p class="tip">轻走旅行|免责声明<br>@qingzou.cc 沪ICP备15014646-1</p>
+                    </div>
+                    <div class="fr">
+                        <p>
+                            <span class="sweep fl">扫一扫关注微信公众号</span>
+                        <span  class="foot-code">
+                        <img src="images/new_37.jpg" alt="" width="107px"/>
+                        <img src="images/new_39.jpg" alt="" width="107px"/>
+                    </span>
+                        </p>
+                    </div>
+                </div><!--foot-bg-->
+            </div><!--foot-end-->
+        </div><!--footer-->
+    </div>
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type=text/javascript>
+        $(".become-guide").click(function(){
+            var $code=$(this).find("span");
+            if($code.is(":visible"))
+            {
+                $code.slideUp();
+            }
+            else
+            {
+                $code.slideDown();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=1" id="viewport" name="viewport"/>
+    <title>轻走旅行—日本包车旅行专家</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+<div id="main">
+    <div class="login-box">
+        <div class="logo"><a href="index.html"><img src="images/login-logo.png" width="266" height="116" alt=""/></a></div>
+        <div class="login">
+            <div class="form">
+                <div class="phoneNumber">
+                    <input type="text" placeholder="您的手机号码"/>
+                    <span class="phoneNumber-code">发送验证码</span>
+                </div>
+                <div class="signPassword">
+                    <input type="text" placeholder="输入短信验证码"/>
+                </div>
+                <div class="login-confirm">
+                    <a href="javascript:void(0);">
+                        <input type="button" value="登录"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--main end-->
+<script type="text/javascript" src="js/vendor/jquery.js"></script>
+<script type=text/javascript>
+    $(function(){
+        var hMain = $(window).height();
+        $('#main').height(hMain);
+    });
+</script>
+</body>
+</html>

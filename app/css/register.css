@@ -1,0 +1,55 @@
+@import "login.css";
+#main .login-box{
+    margin-top: -354.5px;
+}
+#main div.login-box div.form{
+    padding: 75px 0 40px;
+}
+#main div.login-box div.form div.phoneNumber{
+    margin: 0 auto 17px;
+}
+#main div.login-box div.form div.phoneNumber input{
+    width: 420px;
+    border: 1px solid #cccccc;
+}
+#main div.login-box div.form div.phoneNumber span.phoneNumber-code{
+    background: #22ADE6;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 15px 19px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+#main div.login-box div.form div.signPassword{
+    position: relative;
+    border: none;
+    margin: 0 auto 17px;
+}
+#main div.login-box div.form div.signPassword input{
+    width: 280px;
+    border: 1px solid #cccccc;
+}
+#main div.login-box div.form div.signPassword span.phoneNumber-code{
+    background: #22ADE6;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 15px 19px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+#main div.login-box div.form div.login-confirm{
+    margin: 60px auto 15px;
+}
+#main div.login-box div.form div.notice{
+    margin-bottom: 0;
+}
+#main div.login-box div.form .notice a {
+    color: #22ADE6;
+    text-decoration: underline;
+}

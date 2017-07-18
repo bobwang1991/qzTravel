@@ -1,0 +1,214 @@
+/*pc-guide-list*/
+.pc-guide{
+    width: 100%;
+    background: #fff;
+    margin-top: -30px;
+    padding-top: 30px;
+}
+.pc-guide .paging{
+    margin-bottom: 50px;
+}
+.pc-guide-list{
+    width: 1024px;
+    margin: 0 auto;
+}
+.pc-guide-list dl{
+    width: 49%;
+    margin-bottom: 10px;
+}
+.pc-guide-list dl dt img{
+    border-radius: 50%;
+}
+.pc-guide-list dl:last-child{
+    margin-bottom: 150px;
+}
+.pc-guide-list dl dt{
+    width: 176px;
+    height: 240px;
+}
+.pc-guide-list dl dd{
+    width: 288px;
+    padding-left: 15px;
+}
+.pc-guide-list dl dd span.name{
+    color: #333;
+    font-size: 47px;
+    padding-left: 10px;
+}
+.pc-guide-list dl dd span.style{
+    background: #21ADE5;
+    color: #fff;
+    display: inline-block;
+    padding: 1% 5%;
+    font-size: 19px;
+    border-radius: 4px;
+    margin: 20px 0 0 10px;
+}
+.pc-guide-list dl dd span.sign{
+    font-size: 18px;
+    color: #333;
+    display: inline-block;
+
+    margin:10px 0 3px 10px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    width: 190px;
+}
+.pc-guide-list dl dd span.approve{
+    color: #999;
+}
+.pc-guide-list dl dd.information{
+    color: #999;
+    margin: 10px;
+    border-top: 1px solid #ccc;
+}
+.pc-guide-list dl dd.information span.information-place{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+    width: 190px;
+    display: inline-block;
+    padding-top: 2px;
+}
+/*导游详情*/
+.pc-guide-detail .guide-top{
+    background: #21ADE5;
+    width: 100%;
+    margin-top: -20px;
+    padding-top: 100px;
+}
+.pc-guide-detail .guide-top p.top-detail{
+    width: 485px;
+    height: 220px;
+    margin: 0 auto;
+}
+.pc-guide-detail .guide-top p.top-detail span{
+    display: inline-block;
+    color: #fff;
+}
+.pc-guide-detail .guide-top p.top-detail span.detail-in,.pc-guide-detail .guide-top p.top-detail span.detail-place{
+    line-height: 220px;
+    font-size: 20px;
+}
+.pc-guide-detail .guide-top p.top-detail span.detail-place{
+    margin-left: 14px;
+    position: absolute;
+    top: 161px;
+    width: 175px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+    font-size: 20px;
+}
+.pc-guide-detail .guide-top p.top-detail span.detail-img{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-left: 30px;
+}
+.pc-guide-detail .guide-top p.top-detail span.detail-img img{
+    border-radius: 50%;
+}
+.pc-guide-detail .guide-top .guide-in{
+    width: 350px;
+    margin: 0 auto;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.pc-guide-detail .guide-top .guide-in dt{
+    font-size: 40px;
+}
+.pc-guide-detail .guide-top .guide-in dd.guide-introduce{
+    font-size: 19px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.pc-guide-detail .guide-top .guide-in dd.has-car{
+    font-size: 26px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    width: 104px;
+    text-align: center;
+    background: #474747;
+    border-radius: 5px;
+    margin: 20px auto 0;
+}
+.top-bottom{
+    background: #1779A0;
+    height: 55px;
+    line-height: 55px;
+}
+.bottom-detail{
+    width: 1022px;
+    margin: 0 auto;
+}
+.bottom-detail ul{
+    margin-left: 178px;
+}
+.bottom-detail ul li{
+    color: #fff;
+    margin-right: 58px;
+    font-size: 20px;
+}
+.big-middle{
+    background: #FAFAFA;
+    padding-bottom: 50px;
+}
+.guide-middle{
+    padding-top: 75px;
+    position: relative;
+    margin: 0 auto;
+    width: 1022px;
+}
+.guide-middle span.bottom-icon{
+    position: absolute;
+    top: -8px;
+    left: 26px;
+}
+.guide-middle h1.guide-title{
+    font-size: 24px;
+    color: #333;
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 14px;
+}
+.data-detail dl{
+    font-size: 16px;
+    margin-top: 23px;
+    margin-right: 95px;
+}
+.data-detail dl dt,dl.person-introduce dt{
+    color: #333;
+}
+.data-detail dl dd,dl.person-introduce dd{
+    color: #999;
+}
+dl.person-introduce{
+    font-size: 16px;
+    margin-top: 30px;
+}
+dl.person-introduce dd{
+    width: 870px;
+}
+h1.guide-serve{
+    margin-top: 65px;
+}
+.guide-bottom{
+    margin:50px auto;
+    width: 1022px;
+}
+.pic-word{
+    color: #666;
+    font-size: 16px;
+}
+.pic-word p.pic{
+    text-align: center;
+    margin: 30px auto;
+}

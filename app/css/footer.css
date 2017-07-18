@@ -1,0 +1,108 @@
+.footer {
+    width: 100%;
+    background: #001923;
+}
+.footer .footer-top {
+    width: 100%;
+    border-bottom: 1px solid #2d3538;
+}
+.footer .footer-top .footer-main{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 38px 0 54px;
+    position: relative;
+}
+.footer .footer-nav dl {
+    float: left;
+    margin-left: 62px;
+}
+.footer .footer-nav dl:first-child{
+    margin-left: 0;
+}
+.footer .footer-nav dt {
+    color: #e2e3f0;
+    font-size: 14px;
+    line-height:26px;
+}
+.footer .footer-nav dd {
+    color: #757682;
+    font-size: 14px;
+    line-height:26px;
+    cursor: pointer;
+}
+.footer .footer-nav dd a{
+    color: #757682;
+}
+.footer .footer-nav dd:hover a{
+    color: #FFFFFF;
+}
+.footer .footer-nav dd.foot-guide span{
+    display: block;
+    width: 141px;
+    height:201px;
+    position: absolute;
+    top: 90px;
+    left: 310px;
+}
+.footer .footer-nav dl.about-qr{
+    float: right;
+}
+.footer .footer-nav dl.about-qr dt{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.footer .footer-nav dl.about-qr dd{
+    margin-left: 30px;
+}
+.footer .footer-nav dl.about-qr dd.server-qr{
+    margin-left: 0;
+}
+.footer .footer-nav dl.about-qr dd span{
+    display: block;
+    text-align: center;
+}
+.footer .footer-bottom{
+    width: 100%;
+}
+.footer .footer-bottom .footer-main{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 44px 0 39px;
+    position: relative;
+}
+.footer .footer-bottom .footer-main .footer-logo img{
+    opacity: 0.5;
+}
+.footer .footer-bottom .footer-copy {
+    color: #757682;
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 60px;
+}
+.footer .footer-bottom .footer-copy a{
+    color: #757682;
+}
+.footer .footer-bottom .footer-right-btn{
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+.footer .footer-bottom .footer-right-btn a{
+    display: block;
+}
+.footer .footer-bottom .footer-right-btn .back-pic{
+    padding-left: 66px;
+}
+.footer .footer-bottom .footer-right-btn .home {
+    color: #757682;
+    font-size: 14px;
+}
+.footer .footer-bottom .footer-right-btn .home a{
+    color: #757682;
+}
+.footer .footer-bottom .footer-right-btn .home span{
+    font-size: 16px;
+    font-weight: bold;
+}

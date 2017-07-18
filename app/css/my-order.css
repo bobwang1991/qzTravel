@@ -1,0 +1,169 @@
+#main div.content-area{
+    width: 100%;
+    background: #f5f5f5;
+    margin-top: 80px;
+    padding-bottom: 90px;
+    padding-top: 50px;
+}
+#main div.content div.pc-myOrder-title {
+    height: 43px;
+    margin-bottom: 20px;
+    color: #666666;
+}
+#main div.content div.pc-myOrder-title p:first-child{
+    font-size: 30px;
+    line-height: 25px;
+}
+#main div.content div.pc-myOrder-title p.small-title{
+    font-size: 16px;
+    line-height: 67px;
+}
+
+#main div.content div.pc-myOrder-con {
+    width: 100%;
+    background: white;
+    padding: 20px 22px 36px;
+}
+#main div.content div.no-order{
+    height: 300px;
+}
+#main div.content div.no-order p{
+    color: #666;
+    font-size: 18px;
+    margin-top: 70px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status{
+    margin-bottom: 5px;
+    border: 1px solid #dddddd;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-head {
+    line-height: 40px;
+    background: #fafafa;
+    color: #aaaaaa;
+    font-size: 14px;
+    padding: 0 17px 0 27px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-head span.name {
+    padding: 0 46px 0 35px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con {
+    padding: 20px;
+    border-top: 1px solid #dddddd;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-pic{
+    width: 100px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-name {
+    width: 310px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #333333;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-status-choose {
+    margin: 0 50px;
+    font-size: 14px;
+    color: #aaaaaa;
+    padding: 18px 0 14px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-status-choose span{
+    line-height: 22px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-status-choose span.cancel{
+    cursor: pointer;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-status-choose a{
+    color: #aaaaaa;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-price{
+    line-height: 96px;
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-left: 30px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-price span{
+    font-size: 20px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-btn {
+    width: 100px;
+    height: 42px;
+    line-height: 42px;
+    background: #00b7ee;
+    text-align: center;
+    border-radius: 3px;
+    margin: 28px 0 24px;
+    font-size: 16px;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-btn a{
+    color:white;
+    display: block;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status-con div.pc-order-finish {
+    background: transparent;
+    color: #cccccc;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status div.cancelOrder{
+    padding: 37px 0;
+}
+#main div.content div.pc-myOrder-con div.pc-order-status div.redText {
+    background: transparent;
+    color:#ff0000;
+}
+/*弹窗*/
+#main .popOrder {
+    width: 380px;
+    background: red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -88.5px;
+    margin-left: -190px;
+    border:1px solid #aaaaaa;
+    display: none;
+}
+#main .popOrder .popOrder-header {
+    background: #eeeeee;
+}
+#main .popOrder .popOrder-header span.close{
+    height: 35px;
+    color: #a0a0a6;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+}
+#main .popOrder .popOrder-content {
+    background: white;
+}
+#main .popOrder .popOrder-content p {
+    text-align: center;
+    padding: 30px 0;
+    color: #333333;
+    font-size: 20px;
+}
+#main .popOrder .popOrder-content .btn{
+    padding: 0 89px;
+}
+#main .popOrder .popOrder-content .btn span {
+    display: inline-block;
+    float: left;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    background: #f8f8f8;
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 26px;
+}
+#main .popOrder .popOrder-content .btn span.sure {
+    background: #00b7ee;
+    border: 1px solid #00b7ee;
+}
+#main .popOrder .popOrder-content .btn span.sure a{
+    color:white;
+}

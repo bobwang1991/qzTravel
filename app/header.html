@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=1" id="viewport" name="viewport"/>
+    <title>轻走旅行—日本包车旅行专家</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header-pc.css"/>
+</head>
+<body>
+<div class="pc-header">
+    <div class="header-cont">
+        <div class="h1 clear">
+            <ul class="header-nav clear fl">
+                <li class="fl"><a href="index.html"><img src="images/new_03.png" alt=""/></a></li>
+                <li class="fl"><a href="route-made.html">行程定制</a></li>
+                <li class="fl"><a href="route.html">精品线路</a></li>
+                <li class="fl"><a href="car-travel.html">包车畅游</a></li>
+                <li class="fl"><a href="coach-travel.html">接送机</a></li>
+                <li class="fl"><a href="pension.html">精选民宿</a></li>
+                <li class="fl become-guide">成为司导<span class="become" style="display: none"><img src="images/become_03.png" alt=""/></span></li>
+                <li class="fl"><a href="my-order.html">我的订单</a></li>
+            </ul>
+            <div class="fl login clear">
+                <div class="fl login-tip header-height">
+                    <a href="login.html">登录</a>
+                </div>
+            </div>
+        </div><!--h1-->
+    </div><!--header-cont /-->
+</div><!--pc-header-->
+<script type="text/javascript" src="js/vendor/jquery.js"></script>
+<script type=text/javascript>
+    $(".become-guide").click(function(){
+        var $code=$(this).find("span");
+        if($code.is(":visible"))
+        {
+            $code.slideUp();
+        }
+        else
+        {
+            $code.slideDown();
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,595 @@
+/*应该在公共样式里修改*/
+#main div.content{
+    margin-top: 150px;
+}
+/*应该在公共样式里修改*/
+/*订单标题*/
+#main .content .pc-order-con .order-title .order-main-title {
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+#main .content .pc-order-con .order-title .order-sub-title{
+    font-size: 14px;
+    color: #999999;
+}
+#main .content .pc-order-con .order-title .order-sub-title span{
+    padding: 0 12px;
+}
+#main .content .pc-order-con .order-title .order-sub-title span:first-child{
+    padding: 0;
+}
+#main div.content div.pc-order-con div.order-content {
+    width: 1021px;
+}
+#main div.content div.pc-order-con div.order-content-other{
+    margin-bottom: 40px;
+}
+/*左侧图片展示*/
+#main div.content div.pc-order-con div.order-content div.order-left {
+    width: 540px;
+    /*height:537px;*/
+    margin-top: 16px;
+}
+#main div.content div.pc-order-con div.order-content div.order-left ul.order-banner li img {
+    /*width: 540px;*/
+    /*height: 424px;*/
+    width: 100%;
+}
+/*小图区域*/
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab{
+    position: relative;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab div.tab-show {
+    width: 485px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab ul{
+    width: 1000%;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab ul li {
+    width: 114px;
+    /*height:90px;*/
+    float: left;
+    margin-left: 9px;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab ul li:first-child{
+    margin-left: 0;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab ul li.on{
+    border: 3px solid #02b8ee;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab ul li img {
+    /*width: 108px;*/
+    /*height: 85px;*/
+    width: 100%;
+    display: block;
+}
+/*切换按钮*/
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab div.order-banner-btn div {
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+    cursor: pointer;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab div.order-banner-btn div.prev{
+    left:0;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.tab div.order-banner-btn div.next{
+    right: 0;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.banner-attention{
+    font-size: 14px;
+    line-height: 44px;
+    color: #aaaaaa;
+}
+#main div.content div.pc-order-con div.order-content  div.order-left div.banner-attention span {
+    color: #00b7ee;
+}
+/*右侧订单内容*/
+#main div.content div.pc-order-con div.order-content div.order-right {
+    width: 429px;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.order-right-top {
+    padding-bottom: 12px;
+    border-bottom:1px solid #cccccc;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.price {
+    font-size: 21px;
+    color: #313131;
+    margin-bottom: 37px;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.price span {
+    font-size: 36px;
+    color: #ff0000;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.number{
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-bottom: 37px;
+}
+
+#main div.content div.pc-order-con div.order-content div.order-right div.dateCarPerson div.table-form {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.dateCarPerson div.choose-car{
+    /*margin-top: 10px;*/
+    margin-bottom: 6px;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.dateCarPerson div.person{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.table-form th span{
+    width: 70px;
+    display: block;
+    float: left;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0;
+    text-align: left;
+}
+.table-form td div.form-group{
+    width: 290px;
+    position: relative;
+}
+.table-form td div.form-group i{
+    position: absolute;
+    background: url(../images/arrowDown.png) no-repeat;
+    display: block;
+    width: 30px;
+    height: 28px;
+    transform: rotate(0deg);
+    top: 1px;
+    right: 1px;
+}
+.table-form td input {
+    height: 28px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 28px;
+    width: 290px;
+    text-indent: 1em;
+    color: #00b7ee;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.dateCarPerson div.person div{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p.title {
+    width: 85px;
+    display: block;
+    float: left;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+p.title-long{
+    width: 120px;
+}
+/*下拉菜单*/
+.select-langue{width: 290px;position: relative;overflow: hidden;}
+.select-langue span{padding:0 10px 0;color:#00b7ee;font-size: 14px;}
+.select-langue .moren{border: 1px solid #ccc;border-radius: 3px;height: 30px;line-height: 25px;color:#00b7ee;}
+.select-langue .moren::before {
+    content: '';
+    display: block;
+    height: 30px;
+    border-right: none;
+    position: absolute;
+    right: 25px;
+}
+.select-langue .moren i {
+    position: absolute;
+    background: url("../images/arrowDown.png") no-repeat;
+    display: block;
+    width: 30px;
+    height: 28px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top:1px;
+    right: 1px;
+}
+.select-menu {
+    width: 290px;
+    height: 30px;;
+    line-height: 30px;
+    opacity: 0.0001;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.0001);
+    cursor: pointer;
+}
+.select-menu option{line-height: 25px;list-style: none;text-align: center;}
+/*选择车型 单选框*/
+.radio{
+    width: 290px;
+}
+.radio ul li {
+    width: 30%;
+    height: 30px;
+    float: left;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    font-weight: 100;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.radio ul li:first-child{
+    /*margin-left: 0;*/
+}
+.radio ul li a {
+    color: #666666;
+    font-size: 14px;
+    line-height: 28px;
+}
+.radio ul li.on {
+    background: #00b7ee;
+    border: 1px solid #00b7ee;
+}
+.radio ul li.on a {
+    color:white;
+}
+.plane-pick-up{
+    width: 290px;
+}
+.plane-pick-up ul li {
+    width: 30%;
+    height: 30px;
+    float: left;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 14px;
+    font-weight: 100;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.plane-pick-up ul li:first-child{
+    margin-left: 0;
+}
+.plane-pick-up ul li a {
+    color: #666666;
+    font-size: 14px;
+}
+.plane-pick-up ul li.on {
+    background: #00b7ee;
+    border: 1px solid #00b7ee;
+}
+.plane-pick-up ul li.on a {
+    color:white;
+}
+/*注意 and建议*/
+#main div.content div.pc-order-con div.order-content div.order-right  div.notice{
+    font-size: 15px;
+    color: #aaaaaa;
+}
+.select-date{
+    margin-left: 10px;
+}
+.person div.select-date:first-child{
+    margin-left: 0;
+}
+.select-date p {
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    padding-right: 24px;
+}
+.select-date-other p {
+    line-height: 35px;
+    padding-right: 33px;
+}
+.select-date span {
+    display: block;
+    font-size: 14px;
+    font-weight: 100;
+    color: #aaaaaa;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.dateCarPerson div.person div.select-date-reset{
+    margin-left:10px;
+}
+.select-number{
+    width: 104px;
+    height:35px;
+    float: left;
+    border:1px solid #cccccc;
+    overflow: hidden;
+}
+.select-number input {
+    float: left;
+    width: 30px;
+    height: 33px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    font-size: 30px;
+    color: #cccccc;
+}
+.select-number input:last-child{
+    border-right:none;
+}
+.select-number input.btn{
+    padding-bottom: 60px;
+    line-height: 31px;
+    cursor: pointer;
+}
+.select-number input.num {
+    width: 40px;
+    font-size: 14px;
+    color: #00b7ee;
+    background: transparent;
+}
+/*右侧下方订单*/
+#main div.content div.pc-order-con div.order-content div.order-right div.order-right-bottom div{
+    margin: 15px 0 5px;
+}
+/*下拉时间菜单 start*/
+#main div.content div.pc-order-con div.order-content div.order-right div.order-right-bottom div.select-time{
+    margin: 0;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.order-right-bottom div.select-minutes{
+    margin: 0 0 0 30px;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.order-right-bottom{
+    padding-top: 15px;
+}
+.select-time{
+    width: 112px;
+    height: 32px;
+    float: left;
+}
+.select-time .moren{
+    padding: 0 0 0 20px;
+}
+.select-time .moren::before{
+    height:29px;
+    border-right: 1px solid #ccc;
+    right: 31px;
+}
+.select-time .moren i {
+    background: #f0f0f0 url(../images/arrowDown.png) no-repeat;
+    display: block;
+    width: 30px;
+    height: 28px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top:1px;
+    right: 1px;
+}
+.select-time-menu{
+    width: 112px;
+}
+.select-minutes{
+    width: 112px;
+    height: 32px;
+    float: left;
+}
+.select-minutes .moren{
+    padding: 0 0 0 20px;
+}
+.select-minutes .moren::before{
+    height:29px;
+    border-right: 1px solid #ccc;
+    right: 31px;
+}
+.select-minutes .moren i {
+    background: #f0f0f0 url(../images/arrowDown.png) no-repeat;
+    display: block;
+    width: 30px;
+    height: 28px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top:1px;
+    right: 1px;
+}
+.select-minutes-menu{
+    width: 112px;
+}
+/*下拉时间菜单 end*/
+/*注意文字 start*/
+#main div.content div.pc-order-con div.order-content div.order-right  p.notice-time{
+    padding: 0 0 0 86px;
+    font-size: 15px;
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+/*注意文字 end*/
+/*地址输入框 start*/
+#main div.content div.pc-order-con div.order-content div.order-right div.depart-adress input {
+    width: 292px;
+    height: 29px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    text-indent: 1em;
+}
+/*地址输入框 end*/
+/*预定按钮 start*/
+#main div.content div.pc-order-con div.order-content div.order-right div.order-right-bottom div.reserve-btn {
+    width: 200px;
+    height: 52px;
+    background: #00b7ee;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 4px;
+    margin: 52px auto 29px;
+}
+#main div.content div.pc-order-con div.order-content div.order-right div.order-right-bottom div.reserve-btn a{
+    color:white;
+    display: block;
+    font-size: 22px;
+}
+/*预定按钮 end*/
+
+/*订单底部表单 start*/
+.order-form{
+    margin-bottom: 25px;
+}
+.order-form p.title{
+    width: 100%;
+    float: initial;
+    margin-bottom: 15px;
+}
+.order-form div.order-form-con {
+    width: 100%;
+    background: #f5f5f5;
+    padding: 17px 21px;
+}
+.order-form div.order-form-con form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 31px;
+}
+.order-form div.order-form-con form input {
+    width: 172px;
+    height: 31px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    text-indent: 1em;
+    background: white;
+}
+.order-form div.order-form-con form div.name{
+    float: left;
+    margin-left: 46px;
+}
+.order-form div.order-form-con form div.name:first-child{
+    margin-left: 0;
+}
+.order-form div.order-form-con form div.name textarea {
+    width: 978px;
+    height: 118px;
+    font-size: 14px;
+    background: white;
+    border: 1px solid #cccccc;
+    padding: 5px 0 0;
+    text-indent: 1em;
+    resize: none;
+}
+.order-form div.order-form-con form div.text-area{
+    margin-top: 15px;
+    margin-left: 0;
+}
+/*订单底部表单 end*/
+/*选项卡部分 start*/
+.pc-tab-change {
+    width: 100%;
+    background: #f5f5f5;
+}
+/*选项卡头部 start*/
+.pc-tab-change  div.pc-tab-top {
+    width: 100%;
+    height: 62px;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    background: white;
+    margin-bottom: 16px;
+}
+.pc-tab-change ul.pc-tab-title{
+    width: 1021px;
+    height:62px;
+    margin: 0 auto;
+}
+.pc-tab-change ul.pc-tab-title li {
+    width: 182px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    cursor: pointer;
+}
+.pc-tab-change ul.pc-tab-title li span{
+    height:60px;
+    line-height: 60px;
+    display: inline-block;
+    font-size: 20px;
+}
+.pc-tab-change ul.pc-tab-title li span.on{
+    border-bottom: 4px solid #22ade6;
+}
+/*选项卡头部 end*/
+/*选项卡内容 start*/
+.pc-tab-change div.pc-tab-content{
+    width: 1021px;
+    margin: 0 auto;
+    background: white;
+    /*padding: 40px 36px 105px 31px;*/
+    padding: 30px 30px;
+}
+.pc-tab-change div.pc-tab-content div.pc-con-tip div.tokyo-title {
+    font-size: 24px;
+    margin-bottom: 4px;
+    color: #666666;
+}
+.pc-tab-change div.pc-tab-content div.pc-con-tip div.tokyo-con {
+    font-size: 16px;
+    color: #999999;
+    white-space: pre-wrap;
+    line-height: 22px;
+    padding: 10px 0;
+}
+.pc-tab-change div.pc-tab-content div.pc-con-tip div.tokyo-pic {
+    /*margin: 35px 0 40px;*/
+}
+/*选项卡内容 end*/
+/*相关商品 start*/
+#proList{
+    height: 313px;
+}
+#proList dl{
+    height: 313px;
+    background: white;
+}
+#proList dl dd{
+    background: transparent;
+}
+.relevance-product h1.car-title{
+    padding: 28px 0 21px 28px;
+}
+#proLists dl dd.list-style{
+    line-height: 20px;
+    height: 50px;
+}
+#proLists dl dd.det{
+    height:40px;
+}
+#proLists dl dd.det span.price{
+    font-size: 15px;
+}
+#proLists dl dd.det span.price,em{
+    font-size: 20px;
+}
+.pc-content .relevance-product{
+    padding-bottom: 314px;
+}
+.pc-content .tab-change {
+    background: #f5f5f5;
+}
+.pc-content .relevance-product{
+    background: #f5f5f5;
+}
+/*相关商品 end*/
+/*选项卡部分 end*/
+.none{
+    display: none;
+}

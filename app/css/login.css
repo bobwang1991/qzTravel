@@ -1,0 +1,89 @@
+#main {
+    background: url("../images/login-bg.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+#main .login-box {
+    width: 526px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-left: -263px;
+    margin-top: -272.5px;
+}
+/*登录logo*/
+#main div.login-box div.logo{
+    margin-bottom: 55px;
+}
+#main div.login-box div.logo a img {
+    display: block;
+    margin: 0 auto;
+}
+/*登录框*/
+#main div.login-box div.login {
+    background: white;
+    border-radius: 10px;
+}
+#main div.login-box div.form{
+    padding: 75px 0 65px;
+}
+/*手机号输入框 start*/
+#main div.login-box div.form div.phoneNumber{
+    width: 420px;
+    height: 52px;
+    background: white;
+    margin: 0 auto 10px;
+    position: relative;
+}
+#main div.login-box div.form div.phoneNumber span.phoneNumber-code {
+    background: #22ADE6;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 16px;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    cursor: pointer;
+}
+#main div.login-box div.form div.phoneNumber input {
+    width: 420px;
+    height: 52px;
+    text-indent: 1.7em;
+    font-size: 20px;
+    line-height: 52px;
+    border: 1px solid #cccccc;
+}
+/*手机号输入框 end*/
+/*密码输入框 start*/
+#main div.login-box div.form div.signPassword{
+    width: 420px;
+    height: 52px;
+    background: white;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+}
+#main div.login-box div.form div.signPassword input {
+    width: 420px;
+    height: 52px;
+    text-indent: 1.7em;
+    font-size: 20px;
+    line-height: 52px;
+}
+/*密码输入框 end*/
+/*登录按钮 start*/
+#main div.login-box div.form div.login-confirm {
+    width: 420px;
+    height: 65px;
+    margin: 30px auto 25px;
+    background: #00b7ee;
+    border-radius: 15px;
+}
+/*登录按钮 start*/
+#main div.login-box div.form div.login-confirm input {
+    color: white;
+    font-size: 25px;
+    line-height: 65px;
+    margin-bottom: 1.17rem;
+}
+/*登录按钮 end*/
+/*登录按钮 end*/
